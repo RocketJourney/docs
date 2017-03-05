@@ -1,0 +1,36 @@
+# ----
+# Site
+
+title: Aviator
+description: Jekyll template for API documentation.
+url: https://example.com
+google_analytics_key:
+permalink: pretty
+
+collections:
+  examples:
+    title: Examples
+    position: 2
+  api:
+    title: APIs
+    position: 1
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - readme.md
+  - LICENCE
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+
+types:
+  - get
+  - put
+  - delete
+  - post
