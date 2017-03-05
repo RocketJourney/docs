@@ -1,19 +1,22 @@
 # ----
 # Site
 
-title: Aviator
-description: Jekyll template for API documentation.
-url: https://example.com
+title: RocketJourney Documentation
+description: Documentation for the RocketJourney Platform
+url: https://rocketjourney.github.io/docs/
 google_analytics_key:
 permalink: pretty
 
 collections:
-  examples:
-    title: Examples
-    position: 2
-  api:
-    title: APIs
+  intro:
+    title: Introduction
     position: 1
+  exampleintro:
+    title: Example Intro
+    position: 2
+  exampleapi:
+    title: Example APIs
+    position: 3
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
