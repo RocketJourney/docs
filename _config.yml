@@ -11,12 +11,15 @@ collections:
   intro:
     title: Introduction
     position: 1
+  member-verification:
+    title: Member Verification
+    position: 2
   exampleintro:
     title: Example Intro
-    position: 2
+    position: 3
   exampleapi:
     title: Example APIs
-    position: 3
+    position: 4
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag

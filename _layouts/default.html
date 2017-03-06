@@ -6,6 +6,40 @@
 		<link rel="stylesheet" href="css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="js/main.js"></script>
+
+
+		<!-- Start of Async Drift Code -->
+
+		<!--
+
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('arfbh9p6iyf5');
+</script>
+
+		-->
+
+<!-- End of Async Drift Code -->
+
+
 	</head>
 	<body>
 		<header>
@@ -30,6 +64,5 @@
 				document.body.classList.toggle("nav-open");
 			});
 		</script>
-		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	</body>
 </html>

@@ -1,23 +1,10 @@
 ---
 title: Authentication
-position: 2
-right_code: |
-  ~~~ javascript
-  $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
-    alert(data);
-  });
-  ~~~
-  {: title="jQuery" }
-
-  ~~~ bash
-  curl http://api.myapp.com/books?token=YOUR_APP_KEY
-  ~~~
-  {: title="Curl" }
+position: 3
 ---
 
-You need to be authenticated for all API requests. You can generate an API key in your developer dashboard.
+For all requests to the RocketJourney Platform API, you need to provide the Club's Token inside a `X-RJ-Token` HTTP header.
 
-Add the API key to all requests as a GET parameter.
+For requests made by RocketJourney to your software, we will provide the same Club's Token inside a `X-RJ-Token` HTTP header. This is optional, but recommended.
 
-Nothing will work unless you include this API key
-{: .error }
+You can find your Token on the Settings tab of your Control Center or, if you are a software provider, [contact us](mailto:support@rocketjourney) at [support@rocketjourney.com](mailto:support@rocketjourney) to receive one.
