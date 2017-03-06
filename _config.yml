@@ -14,11 +14,11 @@ collections:
   member-verification:
     title: Member Verification
     position: 2
-  exampleintro:
-    title: Example Intro
+  checkin-verification:
+    title: Check-In Verification
     position: 3
-  exampleapi:
-    title: Example APIs
+  examples:
+    title: Examples
     position: 4
 gems:
   - jekyll-sitemap
